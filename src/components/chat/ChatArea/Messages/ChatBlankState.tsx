@@ -19,7 +19,7 @@ const ChatBlankState = () => {
         >
           <div className="flex items-center justify-center gap-x-2 whitespace-nowrap font-medium">
             <span className="flex items-center font-[600]">
-              Swim Analytics Agent
+              What would you like to analyze about your swimming performance?
             </span>
           </div>
         </motion.h1>

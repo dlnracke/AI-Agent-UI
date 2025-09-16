@@ -16,9 +16,9 @@ const dmMono = DM_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Agent UI',
+  title: 'SwimBench AI - Swim Analytics Agent',
   description:
-    'A modern chat interface for AI agents built with Next.js, Tailwind CSS, and TypeScript. This template provides a ready-to-use UI for interacting with Agno agents.'
+    'Analyze your swimming performance with our AI-powered Swim Analytics Agent. Get insights and recommendations to improve your technique and achieve your goals.',
 }
 
 export default function RootLayout({
