@@ -18,16 +18,12 @@ const ChatBlankState = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-4xl font-[600] tracking-tight"
         >
-          <div className="flex flex-col items-center gap-5 text-center">
+          <div className="flex flex-col items-center gap-10 text-center">
             {/* Icons in one row */}
             <div className="flex gap-20">
               <Icon type="agno" size="lg" />
               <Icon type="agent" size="lg" />
             </div>
-
-            <span className="font-[600]">
-              Swimlytics.ai
-            </span>
 
             {/* Text centered below icons */}
             <span className="font-[500]">

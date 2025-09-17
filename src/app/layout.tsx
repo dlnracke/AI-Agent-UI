@@ -16,7 +16,7 @@ const dmMono = DM_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'swimlytics.ai',
+  title: 'Swimlytics.ai',
   description:
     'Analyze your swimming performance with our AI-powered Swim Analytics Agent. Get insights and recommendations to improve your technique and achieve your goals.',
 }
