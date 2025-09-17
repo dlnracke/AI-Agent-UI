@@ -9,8 +9,8 @@ import Sessions from './Sessions'
 
 const SidebarHeader = () => (
   <div className="flex items-center gap-2">
-    <Icon type="agno" size="xs" />
-    <span className="text-lg font-medium uppercase text-white">Swimlytics.ai</span>
+    <Icon type="agno" size="lg" />
+    <span className="text-md font-medium  text-white">Swimlytics.ai</span>
   </div>
 )
 
