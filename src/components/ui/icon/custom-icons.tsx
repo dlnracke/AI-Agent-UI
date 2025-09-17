@@ -1,4 +1,3 @@
-import { Eclipse } from 'lucide-react'
 import { type FC } from 'react'
 
 export const SwimmerIcon: FC<{ size?: number }> = ({ size = 48, ...props }) => {
