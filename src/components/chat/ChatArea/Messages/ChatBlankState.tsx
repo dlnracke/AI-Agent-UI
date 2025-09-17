@@ -15,11 +15,11 @@ const ChatBlankState = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-3xl font-[600] tracking-tight"
+          className="text-4xl font-[600] tracking-tight"
         >
           <div className="flex items-center justify-center gap-x-2 whitespace-nowrap font-medium">
             <span className="flex items-center font-[600]">
-              What would you like to analyze about your swimming performance?
+              How does your swim time compare to other?
             </span>
           </div>
         </motion.h1>
