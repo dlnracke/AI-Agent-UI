@@ -23,8 +23,8 @@ const Icon: FC<IconProps> = ({
         size === 'xxs' && 'size-3',
         size === 'xs' && 'size-4',
         size === 'sm' && 'size-6',
-        size === 'md' && 'size-[42px]',
-        size === 'lg' && 'size-7',
+        size === 'md' && 'size-9',
+        size === 'lg' && 'size-20',
         size === 'dot' && 'size-[5.07px]',
         size === 'default' && ' '
       )}
