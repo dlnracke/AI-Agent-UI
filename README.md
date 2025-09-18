@@ -1,10 +1,8 @@
-# Agent UI
+# Swimlytics.ai UI
 
-A modern chat interface for AI agents built with Next.js, Tailwind CSS, and TypeScript. This template provides a ready-to-use UI for interacting with Agno agents.
+A modern chat interface for Swimlytics.ai agent built with Next.js, Tailwind CSS, and TypeScript. 
 
-<img src="https://github.com/user-attachments/assets/7765fae5-a813-46cb-993b-904af9bc1672" alt="agent-ui" style="border-radius: 10px; width: 100%; max-width: 800px;" />
-
-## Features
+## ✨ Features
 
 - 💬 **Modern Chat Interface**: Clean design with real-time streaming support
 - 🧩 **Tool Calls Support**: Visualizes agent tool calls and their results
@@ -14,52 +12,40 @@ A modern chat interface for AI agents built with Next.js, Tailwind CSS, and Type
 - 🎨 **Customizable UI**: Built with Tailwind CSS for easy styling
 - 🧰 **Built with Modern Stack**: Next.js, TypeScript, shadcn/ui, Framer Motion, and more
 
-## Getting Started
-
-### Prerequisites
-
-Before setting up Agent UI, you may want to have an Agno Playground running. If you haven't set up the Agno Playground yet, follow the [official guide](https://agno.link/agent-ui#connect-to-local-agents) to run the Playground locally.
+## 🚀 Getting Started
 
 ### Installation
-
-### Automatic Installation (Recommended)
-
-```bash
-npx create-agent-ui@latest
-```
-
-### Manual Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/agno-agi/agent-ui.git
+git clone https://github.com/dlnracke/agent-ui.git
 cd agent-ui
 ```
 
 2. Install dependencies:
 
 ```bash
-pnpm install
+npm install
 ```
 
+3. Environment Variables
+Create a .env file for your Swimlytics.ai endpoint:
+
+```
+NEXT_PUBLIC_APP_API_URL=http://localhost:8000
+```
 3. Start the development server:
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Connecting to an Agent Backend
+## Connecting to an Swimlytics.ai
 
-By default Agent UI connects to `http://localhost:7777`. You can easily change this by hovering over the endpoint URL and clicking the edit option.
-
-The default endpoint works with the standard Agno Playground setup described in the [official documentation](https://agno.link/agent-ui#connect-to-local-agents).
-
-## Contributing
-
-Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
+By default Swimlytics.ai UI connects to `http://localhost:8000`. You can easily change this by editing .env.
 
 ## License
 
