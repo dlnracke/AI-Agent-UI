@@ -1,6 +1,7 @@
 # Swimlytics.ai UI
 
 A modern chat interface for Swimlytics.ai agent built with Next.js, Tailwind CSS, and TypeScript. 
+![UI](public/ui.png)
 
 ## ✨ Features
 
@@ -30,7 +31,7 @@ npm install
 ```
 
 3. Environment Variables
-Create a .env file for your Swimlytics.ai endpoint:
+Create a `.env` file for your Swimlytics.ai endpoint:
 
 ```
 NEXT_PUBLIC_APP_API_URL=http://localhost:8000
